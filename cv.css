@@ -35,7 +35,7 @@ body {
   border-right: 50px solid #fff;
 }
 
-.container .top {
+.container .upSection {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -43,14 +43,14 @@ body {
   padding-bottom: 0;
 }
 
-.container .top .imageBox {
+.container .upSection .imageBox {
   position: relative;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.container .top .imageBox .box {
+.container .upSection .imageBox .box {
   position: relative;
   width: 70%;
   min-width: 200px;
@@ -59,7 +59,7 @@ body {
   aspect-ratio: 1;
 }
 
-.container .top .imageBox .box img {
+.container .upSection .imageBox .box img {
   position: absolute;
   top: 0;
   left: 0;
@@ -68,14 +68,14 @@ body {
   object-fit: cover;
 }
 
-.container .top .profileText {
+.container .upSection .profileText {
   position: relative;
   padding: 40px;
   display: flex;
   align-items: center;
 }
 
-.container .top .profileText h3 {
+.container .upSection .profileText h3 {
   font-size: 3em;
   letter-spacing: 0.1em;
   line-height: 1.2em;
@@ -83,14 +83,14 @@ body {
   color: var(--color-black);
 }
 
-.container .top .profileText h3 span {
+.container .upSection .profileText h3 span {
   position: relative;
   font-size: 0.5em;
   font-weight: 300;
   top: -10px;
 }
 
-.container .contentBox {
+.container .downSection {
   position: relative;
   min-height: 500px;
   display: grid;
@@ -98,7 +98,7 @@ body {
   padding: 0 40px 40px;
 }
 
-.container .contentBox h3 {
+.container .downSection h3 {
   border-left: 4px solid var(--color-orange);
   padding-left: 10px;
   line-height: 1em;
@@ -109,12 +109,12 @@ body {
   margin-top: 50px;
 }
 
-.container .contentBox ul {
+.container .downSection ul {
   position: relative;
   margin: 10px 0;
 }
 
-.container .contentBox ul li {
+.container .downSection ul li {
   list-style: none;
   margin: 25px 0;
   line-height: 1em;
@@ -123,18 +123,18 @@ body {
   display: flex;
 }
 
-.container .contentBox ul li ion-icon {
+.container .downSection ul li ion-icon {
   font-size: 1.2em;
   margin-right: 10px;
   color: var(--color-orange);
 }
 
-.container .contentBox .leftSide ul li .text a {
+.container .downSection .leftSection ul li .text a {
   text-decoration: none;
   color: var(--color-black);
 }
 
-.container .contentBox ul.qualification li {
+.container .downSection ul.qualification li {
   flex-direction: column;
   margin: 25px 0;
 }
@@ -207,7 +207,7 @@ h6 {
   font-size: 16px;
 }
 
-.rightSide {
+.rightSection {
   padding-left: 40px;
 }
 
