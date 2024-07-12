@@ -1,0 +1,12 @@
+
+Assignment Question: Design your own CV using HTML and CSS. CV should have 
+
+Name, -- Done
+email, -- Done
+Photo, -- Done
+career objectives, -- Done
+qualifications, -- Done
+certifications (if any), 
+experience (if any). 
+
+Instructions: Students have to upload the html and css files in the Taxila Portal along with images in a zip file. (Mandatory). And also try to host your CV on Github and share the link in the CV. (Optional).
