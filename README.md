@@ -8,5 +8,5 @@ Currently, I am leveraging my expertise at Wipro, where I lead Angular developme
 
 ## Screenshots
 
-![App Screenshot](Screenshot_12-7-2024_203734_itsmetrina.github.io.jpeg)
+![App Screenshot](Screenshot_12-7-2024_212410_.jpeg)
 
